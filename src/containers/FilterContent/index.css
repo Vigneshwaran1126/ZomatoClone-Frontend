@@ -1,0 +1,46 @@
+.filtercontent_div{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+.content_align{
+    position: relative;
+    max-width: 110rem;
+    max-height: initial;
+    margin: 0px auto;
+}
+
+.content_border{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.buttonspace{
+    flex-shrink: 0;
+    margin-right: 1.4rem;
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.bottomcontent{
+    position: relative;
+    max-width: 110rem;
+    max-height: initial;
+    margin: 0px auto;
+}
+
+.cardheading{
+    color: rgb(28, 28, 28);
+    font-size: 3rem;
+    margin: 1rem 0px 3.2rem;
+    line-height: 1.2;
+    font-weight: 500;
+}

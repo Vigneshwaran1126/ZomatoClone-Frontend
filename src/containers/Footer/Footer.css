@@ -1,0 +1,282 @@
+.footer_container{
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_innercontainer{
+    max-width: 110rem;
+    width: 110rem;
+    padding: 4.8rem 0px 2.2rem;
+    position: relative;
+}
+
+.footer_section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.logo_image{
+    max-width: 14rem;
+    /*height: 2.7rem;*/
+    display: block;
+    cursor: pointer;
+}
+
+.spacediv{
+    margin-top: 1.2rem;
+}
+
+.footer_sectiontwo{
+    display: flex;
+}
+
+.country_div{
+    max-width: 100%;
+    width: max-content;
+}
+
+.country_border{
+    min-width: 10rem;
+    width: max-content;
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 0.6rem;
+}
+
+.country_bordertwo{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.flag{
+    width: 4.5rem;
+    height: 3.0015rem;
+    display:inline;
+    background:-141px 0px no-repeat;
+}
+
+.india_flag{
+    height: 2rem;
+    width: 3rem;
+    size:2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+}
+
+
+
+.country_text{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(28, 28, 28);
+    margin: 0px 0.5rem 0px 0px;
+    font-weight: 400;
+}
+
+.spacegap{
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+}
+
+.language_div{
+    position: relative;
+    cursor: pointer;
+    min-width: 10rem;
+    width: max-content;
+    padding: 0.7rem;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 0.6rem;
+}
+
+.language_innerdiv{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.language_text{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: rgb(28, 28, 28);
+    margin: 0.2rem 0.5rem 0px 0.8rem;
+    font-weight: 400;
+}
+
+.column_containers{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column_borders{
+    justify-content: space-between;
+}
+
+.company_div{
+    position: relative;
+    width: 100%;
+    max-width: 18.3333%;
+    padding: 0px;
+}
+
+.foodie_div{
+    position: relative;
+    width: 100%;
+    max-width: 19.1667%;
+    padding: 0px;
+}
+
+.footer_heading{
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+}
+
+.a_link{
+    text-decoration: none;
+}
+
+.p_heading{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0px;
+}
+
+.restaurant_div{
+    position: relative;
+    width: 100%;
+    max-width: 25%;
+    padding: 0px;
+}
+
+.you_div{
+    position: relative;
+    width: 100%;
+    max-width: 16.6667%;
+    padding: 0px;
+}
+
+.social_div{
+    position: relative;
+    width: 100%;
+    max-width: 18.3333%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_heading{
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+}
+
+.social_logodiv{
+    display: flex;
+    margin-left: 0.6rem;
+    justify-content: flex-start;
+}
+
+.logo_link{
+    text-decoration: none;
+    margin-right: 0.8rem;
+}
+
+.icon_border{
+    display: flex;
+    align-items: center;
+    cursor: inherit;
+}
+
+.svg_logo{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 22px;
+    height: 22px;
+}
+
+.globe_logo{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 18px;
+    height: 18px;
+}
+
+.indian_flag{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    width: 18px;
+    height: 18px;
+}
+
+.logo_gap{
+    margin-top: 1.2rem;
+}
+
+.download_logo{
+    text-decoration: none;
+}
+
+.download_div{
+    position: relative;
+    max-width: 100%;
+    width: 13.7rem;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.appstore_div{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    opacity: 0;
+    border-radius: inherit;
+}
+
+.appstore{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: inherit;
+}
+
+.horizontal_row{
+    margin-top: 5rem;
+    border-width: 1px 0px 0px;
+    border-top-style: solid;
+    border-top-color: rgb(207, 207, 207);
+}
+
+.bottom_paragraph{
+    font-size: 1.3rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    margin-top: 2.3rem;
+}

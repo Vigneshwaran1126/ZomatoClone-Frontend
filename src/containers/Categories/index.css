@@ -1,0 +1,32 @@
+.category_container{
+    position: relative;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+.category_div{
+    box-shadow: rgb(232 232 232) 0px -0.5px 0px inset;
+}
+
+.container_align{
+    position: relative;
+    max-width: 110rem;
+    max-height: initial;
+    margin: 0px auto;
+}
+
+.category_section{
+    width: 100%;
+    max-width: 110rem;
+    overflow: auto hidden;
+    min-height: 6.2rem;
+}
+
+.category_layout{
+    width: max-content;
+    min-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+}

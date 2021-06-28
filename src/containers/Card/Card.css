@@ -1,0 +1,185 @@
+.outercontainer{
+    max-width: 115rem;
+    margin: 0px auto;
+}
+
+.containerborder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 3.6rem 2.2rem;
+    justify-content: flex-start;
+}
+
+.single_card{
+    width: 35rem;
+    margin-right: 2.5rem;
+    margin-bottom: 3.6rem;
+}
+
+.a_imagetag{
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.imagedivone{
+    border-radius: 0.8rem;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.imagedivtwo{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 24.8rem;
+}
+
+.div_animation{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    opacity: 0;
+    border-radius: inherit;
+}
+
+.cardimagediv{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: inherit;
+}
+
+.offer_div{
+    position: absolute;
+    bottom: 1.2rem;
+    max-width: calc(100% - 2.4rem);
+}
+
+.offer{
+    margin: 0px 0px 1rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 0px 0.6rem;
+    background: rgb(39, 129, 231);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    width: max-content;
+    border-radius: 0px 0.2rem 0.2rem 0px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.imagedetails{
+    display: block;
+    cursor: pointer;
+}
+
+.cardtitlediv{
+    position: relative;
+}
+
+.cardtitle{
+    color: rgb(54, 54, 54);
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 550;
+    text-align: left;
+    margin: 0.8rem 0px 0.6rem;
+    width: 100%;
+}
+
+.reviewdiv{
+    display: flex;
+    height: 2.4rem;
+}
+
+.reviewsection{
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.reviewlayout{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+.stardiv{
+    display: flex;
+}
+
+.starlayout{
+    display: flex;
+    align-items: center;
+    cursor: inherit;
+}
+
+.stargap{
+    margin-right: 0.6rem;
+}
+
+.rating{
+    margin: 0px 0px 0px 0.3rem;
+    color: rgb(54, 54, 54);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.deliveryreview_div{
+    margin-left: 0.5rem;
+    display: block;
+}
+
+.deliveryreview{
+    line-height: 1.5;
+    margin: 0px;
+    color: rgb(156, 156, 156);
+    width: max-content;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.shopmenu{
+    margin: 0px 0px 0.4rem;
+    text-align: left;
+    text-overflow: ellipsis;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: rgb(79, 79, 79);
+}
+
+.p_amount{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    color: rgb(105, 105, 105);
+    margin: 0.4rem 0px;
+}
+
+.amounts{
+    font-size: 1.6rem;
+    max-width: 17rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dot_inbetween{
+    display: flex;
+    align-self: center;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: rgb(181, 181, 181);
+    border-radius: 50%;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
